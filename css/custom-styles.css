@@ -1,0 +1,18 @@
+#right-sb {
+  position:absolute;
+  right:0;
+}
+
+.jumbotron {
+  background-image: url(../img/bricks.jpeg);
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  box-shadow: 2px 3px 2px;
+  text-align: center;
+}
+
+.jumbotron > h2, h3{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
