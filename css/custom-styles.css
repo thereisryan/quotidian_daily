@@ -8,11 +8,48 @@
   background-size: cover;
   height: 50vh;
   color: white;
-  box-shadow: 2px 3px 2px;
   text-align: center;
 }
 
 .jumbotron > h2, h3{
   margin-top: 1%;
   margin-bottom: 1%;
+  font-family: 'Open-sans';
+  font-size:80px;
+  font-weight: 800;
+  text-shadow: 1px 1px 2px rgb(120, 100, 100);
+}
+
+.container {
+  width: 90%;
+  float: left;
+}
+
+nav {
+  -webkit-box-shadow: inset 0px 0px 15px 0px rgba(66,54,66,1);
+-moz-box-shadow: inset 0px 0px 15px 0px rgba(66,54,66,1);
+box-shadow: inset 0px 0px 15px 0px rgba(66,54,66,1);
+}
+
+.navbar-brand {
+  font-size:32px;
+  color: white;
+}
+
+.nav>li>a {
+  color: white;
+
+}
+
+.nav-pills>li.active>a {
+  text-decoration: none;
+  background-color: transparent;
+  opacity: .95;
+  font-weight: 700;
+}
+
+.nav-pills>li>a:hover {
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 700;
 }
