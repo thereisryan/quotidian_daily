@@ -3,21 +3,30 @@
   right:0;
 }
 
+#myphoto {
+  width: 30%;
+}
+
 .jumbotron {
   background-image: url(../img/bricks.jpeg);
   background-size: cover;
   height: 50vh;
   color: white;
-  text-align: center;
 }
 
-.jumbotron > h2, h3{
+.jumbotron:not(.intro h2, h3) > h2, h3{
   margin-top: 1%;
   margin-bottom: 1%;
   font-family: 'Open-sans';
   font-size:80px;
   font-weight: 800;
+  text-align: center;
   text-shadow: 1px 1px 2px rgb(120, 100, 100);
+}
+
+.intro:not(.jumbotron h2) > h3, h2 {
+  float: right;
+  font-size: 24px;
 }
 
 .container {
