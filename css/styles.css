@@ -1,3 +1,7 @@
+body {
+  background-color: #85bbe8;
+}
+
 #right-sb {
   position:absolute;
   right:0;
@@ -21,20 +25,14 @@
   margin-top: 1%;
   margin-bottom: 1%;
   font-family: 'Open-sans';
-  font-size:80px;
+  font-size:6.2em;
   font-weight: 800;
   text-align: center;
   text-shadow: 1px 1px 2px rgb(120, 100, 100);
 }
 
 .container {
-  width: 100%;
-  float: left;
-}
-
-.hobbies {
-  position:absolute;
-  right: auto;
+  width: 80%;
 }
 
 nav {
