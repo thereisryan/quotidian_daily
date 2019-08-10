@@ -5,6 +5,9 @@
 
 #myphoto {
   width: 30%;
+  float: left;
+  border-radius: 20px;
+  margin-left: 5%;
 }
 
 .jumbotron {
@@ -14,7 +17,7 @@
   color: white;
 }
 
-.jumbotron:not(.intro h2, h3) > h2, h3{
+.jumbotron > h2 {
   margin-top: 1%;
   margin-bottom: 1%;
   font-family: 'Open-sans';
@@ -24,13 +27,8 @@
   text-shadow: 1px 1px 2px rgb(120, 100, 100);
 }
 
-.intro:not(.jumbotron h2) > h3, h2 {
-  float: right;
-  font-size: 24px;
-}
-
 .container {
-  width: 90%;
+  width: 100%;
   float: left;
 }
 
