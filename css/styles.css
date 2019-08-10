@@ -32,6 +32,11 @@
   float: left;
 }
 
+.hobbies {
+  position:absolute;
+  right: auto;
+}
+
 nav {
   -webkit-box-shadow: inset 0px 0px 15px 0px rgba(66,54,66,1);
 -moz-box-shadow: inset 0px 0px 15px 0px rgba(66,54,66,1);
