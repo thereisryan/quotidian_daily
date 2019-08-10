@@ -17,7 +17,7 @@ body {
 .jumbotron {
   background-image: url(../img/bricks.jpeg);
   background-size: cover;
-  height: 50vh;
+  height: 60vh;
   color: white;
 }
 
@@ -25,7 +25,7 @@ body {
   margin-top: 1%;
   margin-bottom: 1%;
   font-family: 'Open-sans';
-  font-size:6.2em;
+  font-size:4.2em;
   font-weight: 800;
   text-align: center;
   text-shadow: 1px 1px 2px rgb(120, 100, 100);
