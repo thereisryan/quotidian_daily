@@ -14,7 +14,7 @@
   color: white;
 }
 
-.jumbotron:not(.intro h2, h3) > h2, h3{
+.head_quote {
   margin-top: 1%;
   margin-bottom: 1%;
   font-family: 'Open-sans';
